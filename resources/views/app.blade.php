@@ -10,6 +10,16 @@
 
     <link rel="canonical" href="{{ url('/') }}" />
 
+    <meta charset="UTF-8">
+    <meta name="description" content="Selam! Adım Semih, {{ date('Y') - 2002 }} yaşında bir yazılımcıyım." />
+
+    <meta property="og:locale" content="en_EN" />
+    <meta property="og:type" content="biography" />
+    <meta property="og:title" content="Software Developer | Semih Keskin " />
+    <meta property="og:description" content="Selam! Adım Semih, {{ date('Y') - 2002 }} yaşında bir yazılımcıyım." />
+    <meta property="og:url" content="{{ url('') }}" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/32278879" />
+
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('icons/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('icons/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('icons/apple-icon-72x72.png') }}">
