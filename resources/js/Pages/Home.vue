@@ -41,8 +41,8 @@ export default {
 
 <template>
   <Layout>
-    <div class="lg:container mx-auto min-h-screen items-center flex">
-      <div class=" self-center mx-auto rounded-2xl py-10 inset-x-0 px-8 bg-white min-w-[100px] max-w-max">
+    <div class="lg:container mx-auto min-h-screen flex flex-wrap flex-col">
+      <div class="justify-self-center mx-auto rounded-2xl py-10 inset-x-0 px-8 bg-white min-w-[100px] max-w-max max-h-fit mt-auto">
         <nav aria-label="Main" data-orientation="horizontal" dir="ltr"
              class="relative z-10 flex flex-col max-w-max flex-1 items-center justify-center gap-y-5">
           <div class="flex flex-row items-center gap-x-2 p-5 border-b rounded-full shadow-sm shadow-gray-300 mb-10">
@@ -90,6 +90,10 @@ export default {
           </div>
           <div class="absolute left-0 bottom-full flex justify-center"></div>
         </nav>
+
+      </div>
+      <div class="justify-self-end mx-auto justify-center flex items-end mt-auto">
+        <span class="font-sans text-indigo-950 font-extralight">Thanks to <a target="_blank" class="text-blue-500 font-normal" href="https://fatihes.com/">Fatih Es</a> for UI Idea 🌈</span>
       </div>
     </div>
   </Layout>
