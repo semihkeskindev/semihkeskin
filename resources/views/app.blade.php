@@ -11,12 +11,12 @@
     <link rel="canonical" href="{{ url('/') }}" />
 
     <meta charset="UTF-8">
-    <meta name="description" content="Selam! Adım Semih, {{ date('Y') - 2002 }} yaşında bir yazılımcıyım." />
+    <meta name="description" content="Selam! Adım Semih, {{ \Carbon\Carbon::parse('2002-12-02')->age }} yaşında bir yazılımcıyım." />
 
     <meta property="og:locale" content="en_EN" />
     <meta property="og:type" content="biography" />
     <meta property="og:title" content="Software Developer | Semih Keskin " />
-    <meta property="og:description" content="Selam! Adım Semih, {{ date('Y') - 2002 }} yaşında bir yazılımcıyım." />
+    <meta property="og:description" content="Selam! Adım Semih, {{ \Carbon\Carbon::parse('2002-12-02')->age }}  yaşında bir yazılımcıyım." />
     <meta property="og:url" content="{{ url('') }}" />
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/32278879" />
 
